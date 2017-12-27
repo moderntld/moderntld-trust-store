@@ -40,6 +40,10 @@ If a certificate signed by your authority is in use on a public OpenNIC website,
 
 Finally, your certificate may be included in this store. Note that this will not immediately allow access to our Certificate Transparency service, etc. until it is included in a latest release. [See all releases here](https://github.com/moderntld/opennic-trust-store/releases) and make note of when your authority was included.
 
-# Trustworthiness
+## Trustworthiness
 
 The certificates contained in this repository have not been audited or tested for integrity. We will immediately remove certificates not adhering to our inclusion policies outlined above as they are reported, but we do not currently have the capability to monitor every root at this time. Before installing any root certificates please consider the CA operator's policies, community standing, signed certificate count, etc. Installing custom root CAs can harm your computer's security in numerous ways. Read [www.moderntld.com/ca](https://www.moderntld.com/ca) for more information.
+
+## Release Building
+
+Run `release.bat` with the next version number to build release files.
